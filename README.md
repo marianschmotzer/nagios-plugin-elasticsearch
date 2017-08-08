@@ -1,12 +1,3 @@
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-This project is no longer maintained.  If you have the time and resources to
-respond to and vet community feedback, please volunteer for a maintainer role by
-posting a message on [this issue][volunteer].
-
-[volunteer]: https://github.com/anchor/nagios-plugin-elasticsearch/issues/48
-
-
 check_elasticsearch
 ===================
 
@@ -49,8 +40,7 @@ cluster and may report that problem to the operator.
 Installation
 ------------
 
-`pip install nagios-plugin-elasticsearch` (from
-[PyPi](https://pypi.python.org/pypi/nagios-plugin-elasticsearch/1.0.0)).
+`pip install https://github.com/marianschmotzer/nagios-plugin-elasticsearch/archive/master.zip` 
 
 Usage:
 -----
@@ -95,3 +85,8 @@ Requirements
 - [pynagioscheck][]
 
 [pynagioscheck]: https://github.com/PeerJ/pynagioscheck
+
+Compatibility
+-------------
+
+Compatible with elasicSearch 5.x 
